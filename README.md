@@ -6,7 +6,10 @@
 --![image](https://user-images.githubusercontent.com/45406197/182200541-9b1219c0-431b-498f-9d81-0addb7023ebb.png)
 
 запустить pgbench -c8 -P 60 -T 3600 -U postgres postgres
+--
 дать отработать до конца
+--![image](https://user-images.githubusercontent.com/45406197/182210079-c8bdce87-e23c-4c28-a048-9839475797d4.png)
+
 зафиксировать среднее значение tps в последней ⅙ части работы
 а дальше настроить autovacuum максимально эффективно
 так чтобы получить максимально ровное значение tps на горизонте часа
